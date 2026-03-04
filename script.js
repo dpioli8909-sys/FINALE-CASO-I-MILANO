@@ -1,7 +1,17 @@
 
 function norm(s){
-  return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
+  s = (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+
+  s = s.replace(/\b(di|del|dello|della|dei|degli|delle|da|dal|dallo|dalla|dai|dagli|dalle|a|ad|al|allo|alla|ai|agli|alle|in|nel|nello|nella|nei|negli|nelle|su|sul|sullo|sulla|sui|sugli|sulle)\b/g," ");
+
+  s = s.replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+
+  return s.replace(/\s/g,"");
 }
+
 
 function login(){
   const u=norm(document.getElementById("u").value);
