@@ -143,7 +143,7 @@ testo:"Trasformare resti umani in decorazione è una scelta culturale: la morte 
 
 {
 id:8,
-title:"Cimitero Monumentale — Famedio",
+title:"Cimitero Monumentale",
 pass:"Memoria",
 desc:`Inaugurato nel 1866, il Monumentale è un museo a cielo aperto. Il Famedio celebra i cittadini illustri: qui la memoria diventa architettura.`,
 curiosita:[
