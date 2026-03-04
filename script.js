@@ -38,19 +38,45 @@ function render(){
   document.getElementById("prog").textContent=unlocked.length+"/8 sbloccati";
 }
 
-function unlock(){
-  const name=norm(document.getElementById("name").value);
-  const pass=norm(document.getElementById("pw").value);
-  PLACES.forEach(pl=>{
-    if(norm(pl.title)===name || norm("luogo"+pl.id)===name){
-      if(norm(pl.pass)===pass){
-        if(!unlocked.includes(pl.id)) unlocked.push(pl.id);
-        render();
-        load(pl);
-      }
-    }
-  });
+function unlock() {
+const name = norm(document.getElementById("name").value);
+const pass = norm(document.getElementById("pw").value);
+
+PLACES.forEach(pl => {
+
+const title = norm(pl.title);
+const idname = norm("luogo" + pl.id);
+
+// nomi brevi (alias)
+const aliases = {
+1:["sepolcro","sansepolcro"],
+2:["ambrosiana"],
+3:["ambrogio"],
+4:["duomo"],
+5:["granda","cagranda"],
+6:["eustorgio"],
+7:["bernardino"],
+8:["monumentale"]
+};
+
+let matchAlias = aliases[pl.id] && aliases[pl.id].includes(name);
+
+if(title === name || idname === name || matchAlias){
+
+if(norm(pl.pass) === pass){
+
+if(!unlocked.includes(pl.id)) unlocked.push(pl.id);
+
+render();
+load(pl);
+
 }
+
+}
+
+});
+}
+
 
 function load(pl){
   const c=document.getElementById("content");
