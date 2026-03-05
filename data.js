@@ -418,8 +418,8 @@ https://acchiappamappa.com/san-bernardino-alle-ossa-il-lato-macabro-di-milano/</
 },
 {
 id:8,
-title:"Cimitero Monumentale — Famedio",
-pass:"Famedio",
+title:"Cimitero Monumentale",
+pass:"Memoria",
 sections:{
 "Il luogo":`<p><strong>Dov’è e cos’è:</strong> il Cimitero Monumentale di Milano si trova nella zona nord-ovest della città, vicino a Porta Garibaldi. È uno dei cimiteri monumentali più importanti d’Europa e rappresenta una vera e propria città della memoria, dove arte, storia e architettura si intrecciano.
 Fonte: https://it.wikipedia.org/wiki/Cimitero_Monumentale_di_Milano</p>
