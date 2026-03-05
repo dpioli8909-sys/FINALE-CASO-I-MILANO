@@ -486,12 +486,7 @@ Ti scrivo le tesi finali dei luoghi, seguendo:</strong></p>
 <p>La memoria non è casuale.</p>
 <p>È scelta.</p>
 <p>La morte non è più soltanto ricordo privato.</p>
-<p>Diventa memoria pubblica e istituzionale della città.</p>
-<h4>LUOGO 1 — Cripta di San Sepolcro</h4>
-<h4>LUOGO 2 — Biblioteca Ambrosiana</h4>
-<h4>LUOGO 3 — Basilica di Sant’Ambrogio</h4>
-<p>LUOGO 4 — Area archeologica del Duomo (Santa Tecla)</p>
-<h4>LUOGO 6 — Sant’Eustorgio</h4>`
+<p>Diventa memoria pubblica e istituzionale della città.</p>`
 }
 }
 ];
