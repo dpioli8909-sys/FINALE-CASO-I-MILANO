@@ -125,8 +125,38 @@ function loadPlace(pl){
   if(unlocked.length >= 8){
     c.innerHTML += `
       <div class="final">
-        <h2>Hai ricostruito il sistema simbolico.</h2>
-        <p>Centro, sapere, culto, cura, morte, memoria: Milano non è casuale. È struttura.</p>
+        <h2>Ora la mappa è completa.</h2>
+        <p>Se stai leggendo queste righe significa che hai seguito tutte le tracce. 
+        Non erano monumenti. 
+        Non erano semplici curiosità storiche. 
+        Erano punti di un sistema.</p>
+        <p>Ogni luogo segnava il centro di un’epoca diversa.
+        Il foro romano.
+        La reliquia cristiana.
+        L’autorità della Chiesa.
+        Il sapere che diventa pubblico.
+        Le istituzioni che organizzano la città.
+        La memoria che decide cosa deve restare.</p>
+        <p>Milano non ha mai distrutto i propri centri.
+        Li ha sovrascritti.
+        Uno sopra l’altro.
+        Epoca dopo epoca.</p>
+        <p>Per questo la città sembra cambiare continuamente.
+        Ma se si osserva con attenzione, si scopre che il potere non scompare mai.
+        Cambia indirizzo.</p>
+        <p>E ogni volta lascia un segno.</p>
+        <p>Quello che hai visto qui non è un caso isolato.
+        Milano è solo uno dei nodi.</p>
+        <p>Lo stesso schema compare altrove.
+        Altre città.
+        Altri centri.
+        Altre sovrascritture.</p>
+        <p>Ho iniziato a seguirne le tracce.</p>
+        <p style="margin-top:28px; opacity:0.75;">
+        Se qualcuno troverà questo archivio dopo di me,
+        saprà dove ricominciare.</p>
+        <p style="margin-top:24px; opacity:0.75;">
+        — M.R.</p>  
       </div>
     `;
   }
